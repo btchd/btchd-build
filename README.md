@@ -8,11 +8,11 @@ Platforms
 
 Common `host-platform-triplets` for cross compilation are:
 
-- `x86_64-w64-mingw32` for Win64
-- `i686-w64-mingw32` for Win32
-- `x86_64-apple-darwin14` for macOS
+- `x86_64-w64-mingw32` for Windows 64 bit
+- `i686-w64-mingw32` for Windows 32 bit
+- `x86_64-apple-darwin14` for macOS 64 bit (The 32 bit binary has unsupported after macOS Catalina)
 - `i686-linux-gnu` for Linux 32 bit
-- `x86_64-linux-gnu` for x86 Linux
+- `x86_64-linux-gnu` for Linux 64 bit
 - `arm-linux-gnueabihf` for Linux ARM 32 bit
 - `aarch64-linux-gnu` for Linux ARM 64 bit
 - `riscv64-linux-gnu` for Linux RISC-V 64 bit
