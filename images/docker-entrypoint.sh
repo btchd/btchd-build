@@ -17,7 +17,7 @@ make -C /workspace/depends -j$BUILD_THREADS \
     FALLBACK_DOWNLOAD_PATH=https://download.bitcoinabc.org/depends-sources || exit 1
 
 # build
-/workspace/autogen.sh && /workspace/configure $BUILD_CFG_ARGS || exit 1
+/workspace/autogen.sh && /workspace/configure $BUILD_ARGS || exit 1
 make clean && make -j$BUILD_THREADS || exit 1
 
 # deploy

@@ -11,7 +11,7 @@ RUN apt-get install binutils-i686-linux-gnu -y
 
 # Build env
 ENV BUILD_HOST='i686-linux-gnu'
-ENV BUILD_CFG_ARGS='--prefix=/ -enable-reduce-exports --enable-glibc-back-compat'
+ENV BUILD_ARGS='--prefix=/ -enable-reduce-exports --enable-glibc-back-compat LDFLAGS=-static-libstdc++'
 ENV BUILD_THREADS=8
 
 # Workspace

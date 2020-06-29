@@ -11,7 +11,7 @@ RUN apt-get install g++-arm-linux-gnueabihf binutils-arm-linux-gnueabihf -y
 
 # Build env
 ENV BUILD_HOST='arm-linux-gnueabihf'
-ENV BUILD_CFG_ARGS='--prefix=/ -enable-reduce-exports --enable-glibc-back-compat'
+ENV BUILD_ARGS='--prefix=/ -enable-reduce-exports --enable-glibc-back-compat LDFLAGS=-static-libstdc++'
 ENV BUILD_THREADS=8
 
 # Workspace

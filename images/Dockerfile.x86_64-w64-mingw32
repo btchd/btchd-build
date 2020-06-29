@@ -11,7 +11,7 @@ RUN apt-get install g++-mingw-w64-x86-64 -y && update-alternatives --set x86_64-
 
 # Build env
 ENV BUILD_HOST='x86_64-w64-mingw32'
-ENV BUILD_CFG_ARGS='--prefix=/ --enable-reduce-exports'
+ENV BUILD_ARGS='--prefix=/ --enable-reduce-exports'
 ENV BUILD_THREADS=8
 
 # Workspace

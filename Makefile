@@ -65,4 +65,4 @@ image_riscv64-linux-gnu:
 build_riscv64-linux-gnu: image_riscv64-linux-gnu
 	HOSTS=aarch64-linux-gnu $(BASEDIR)/build.sh
 
-.PHONY: build-all images clean-none
+.PHONY: build-all images

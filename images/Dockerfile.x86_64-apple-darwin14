@@ -10,7 +10,7 @@ RUN apt-get install librsvg2-bin libtiff-tools bsdmainutils imagemagick libcap-d
 
 # Build env
 ENV BUILD_HOST='x86_64-apple-darwin14'
-ENV BUILD_CFG_ARGS='--prefix=/ --enable-reduce-exports'
+ENV BUILD_ARGS='--prefix=/ --enable-reduce-exports'
 ENV BUILD_THREADS=1
 
 # Workspace

@@ -11,7 +11,7 @@ RUN apt-get install g++-mingw-w64-i686 mingw-w64-i686-dev -y && update-alternati
 
 # Build env
 ENV BUILD_HOST='i686-w64-mingw32'
-ENV BUILD_CFG_ARGS='--prefix=/ --enable-reduce-exports'
+ENV BUILD_ARGS='--prefix=/ --enable-reduce-exports'
 ENV BUILD_THREADS=8
 
 # Workspace
