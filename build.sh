@@ -26,7 +26,7 @@ APP_VER_FULLSTR=v$APP_VER-`git rev-parse --short HEAD`
 
 BUILD_ROOT_DIR="$WORKING_DIR/../$(basename $WORKING_DIR)_build"
 BUILD_DIST_DIR="$BUILD_ROOT_DIR/release/${APP_VER_SHORTSTR}"
-BUILD_HOSTS="x86_64-w64-mingw32 i686-w64-mingw32 x86_64-apple-darwin14 x86_64-linux-gnu arm-linux-gnueabihf aarch64-linux-gnu riscv64-linux-gnu"
+BUILD_HOSTS="x86_64-w64-mingw32 i686-w64-mingw32 x86_64-apple-darwin14 x86_64-linux-gnu i686-linux-gnu arm-linux-gnueabihf aarch64-linux-gnu riscv64-linux-gnu"
 BUILD_USE_THREADS=$(nproc)
 
 [ "x$HOSTS" != "x" ] && BUILD_HOSTS=$HOSTS
