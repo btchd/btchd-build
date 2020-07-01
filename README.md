@@ -1,7 +1,7 @@
 BitcoinHD Core Build
 ====================
 
-For detailes compilation documents, see `build-*.md` under [btchd/doc](https://github.com/btchd/btchd/tree/master/doc).
+For more compilation documents, see `build-*.md` under [btchd/doc](https://github.com/btchd/btchd/tree/master/doc).
 
 Platforms
 ---------
